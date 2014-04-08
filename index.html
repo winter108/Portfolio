@@ -9,13 +9,6 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link href="styles/bootstrap-social.css" rel="stylesheet" type="text/css">
     <link href="styles/bootstrap/bootstrap-lightbox/bootstrap-lightbox.min.css" rel="stylesheet" type="text/css">
-    <script src="styles/assets/js/jquery.js"></script>
-    <script src="styles/js/bootstrap.min.js"></script>
-    <script src="styles/js/vendor/skrollr.js"></script>
-    <script src="styles/bootstrap/bootstrap-lightbox/bootstrap-lightbox.min.js"></script>
-    <script src="styles/js/main.js"></script>
-    <script src="styles/js/plugins.js"></script>
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <style type="text/css">
@@ -261,7 +254,7 @@ h5{
         <section id="contact" style="width:100%; height:670px; background:#E9EFF1; padding:5%;padding-top:14%; text-align:center;">
             <div> 
                 <h3 style="color:#20b2cf">Let's Make Cool Stuff Together</h3></div>                    
-                <img src="pic/1-01.png" alt="Smiley face" height='150px;'>
+                <img class="lazy" data-original="pic/1-01.png" alt="Smiley face" height='150px;'>
                 <h6> I'm looking for full-time User Experience Designer Position! </h6>
                 <h6> Come talk to me if you're interested in inviting an UX proffesional to join your project! </h6>
                 </br>
@@ -294,7 +287,7 @@ h5{
 
                       </div>
                       <div class="modal-body">
-                        <img style=" border: solid 1px #404041;" width="700px" src="pic/Resume3.jpg">
+                        <img class="lazy" data-original="pic/Resume3.jpg" style=" border: solid 1px #404041;" width="700px">
                       </div>
                 </div>
               </div>
@@ -328,7 +321,7 @@ h5{
                           <p> Coming soon.... </p>
                       </div>
                       <div class="col-md-4">
-                         <img width="100%" src='pic/uwit-01.jpg'> 
+                         <img class='lazy' data-original='pic/uwit-01.jpg' width="100%"> 
                       </div>
                     </div>
                 </div>
@@ -370,7 +363,7 @@ h5{
                           <p>The project is wriiten by HTML/ CSS/ jQuery. </p>
                       </div>
                       <div class="col-md-7">  
-                         <img width="100%" src='pic/NoteU-01.jpg'> 
+                         <img class='lazy' data-original='pic/NoteU-01.jpg' width="100%"> 
                       </div>
                     </div>
                 </div>
@@ -391,7 +384,7 @@ h5{
                       <h5>My Role</h5>
                       <p>Interactive Prototyper </p>
                       <h5>The Deliverable</h5>
-                      <img style="padding-top:20px"src="pic/weblabux.jpg" width="60%"> 
+                      <img class='lazy' data-original='pic/weblabux.jpg' style="padding-top:20px" width="60%"> 
                       <h5> <a href="">Want to know more about WeblabUX?</a></h5>
                       
                 </div>
@@ -429,7 +422,7 @@ h5{
                                 </br>
                          </div>
                          <div class="col-md-4">
-                               <img width="100%" src='pic/carmax.jpg'> 
+                               <img class='lazy' data-original='pic/carmax.jpg' width="100%"> 
                          </div>
                   </div>
                 </div>
@@ -452,7 +445,7 @@ h5{
                       <h5>My Role</h5>
                       <p>Interactive Prototyper </p>
                       <h5>The Deliverable</h5>
-                      <img style="padding-top:20px"src="pic/weblabux.jpg" width="60%"> 
+                      <img class='lazy' data-original='pic/weblabux.jpg' style="padding-top:20px" width="60%"> 
                       <h5> <a href="">Want to know more about WeblabUX?</a></h5>
                       
                 </div>
@@ -493,7 +486,7 @@ h5{
                                   </br>
                             </div>
                        <div class="col-md-4">
-                             <img width="100%" src='pic/ptt1.jpg'> 
+                             <img class='lazy' data-original='pic/ptt1.jpg' width="100%"> 
                        </div>
                     </div>
                 </div>
@@ -560,6 +553,14 @@ h5{
             </div>  
         </div> 
 
+
+        <script src="styles/assets/js/jquery.js"></script>
+        <script src="styles/assets/js/jquery.lazyload.min.js"></script>
+        <script src="styles/js/bootstrap.min.js"></script>
+        <script src="styles/js/vendor/skrollr.js"></script>
+        <script src="styles/bootstrap/bootstrap-lightbox/bootstrap-lightbox.min.js"></script>
+        <script src="styles/js/main.js"></script>
+        <script src="styles/js/plugins.js"></script>
 
 </body>
 </html>
