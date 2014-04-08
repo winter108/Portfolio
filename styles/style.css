@@ -4744,12 +4744,10 @@ a {
   cursor: pointer;
 }
 .content .block {
-  padding: 2%;
-  border: solid 8px #f1f0ee;
-  height: 300px;
-  background-color: #E6E7E8;
+  background-color: #f1f0ee;
+  height: 320px;
   overflow: hidden;
-  background-color: white;
+  opacity: 1;
 }
 .content .block img {
   display: block;
@@ -4759,7 +4757,7 @@ a {
 }
 .content .block:hover {
   background-color: none;
-  opacity: 1;
+  opacity: 0.6 	;
 }
 #logo {
   position: absolute;
@@ -4780,14 +4778,81 @@ a {
   height: 690px;
   width: 100%;
 }
-#about a:link {
-  text-decoration: underline;
+#about div {
+  padding-top: 12%;
+  width: 40%;
+  padding-left: 10%;
+  color: white;
   font-weight: bold;
 }
-#about div {
-  padding-top: 10%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+#about div a:link {
+  text-decoration: underline;
+  color: red;
+}
+#landing {
+  color: white;
+}
+#landing h2 {
+  margin-top: 25vh;
+}
+.frame {
+  margin: 5px;
+  padding: 0px 15px 15px 15px;
+  padding-bottom: 0;
+  border: 10px solid white;
+  border-radius: 2px;
+  box-shadow: 0px 2px 0px #e6e6e6;
+}
+.frame .image {
+  height: 180px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+.resume-img {
+  background: url(../pic/Resume2.png);
+  background-size: 100%;
+  border: #d1d2d4 1px solid;
+}
+.uwit-img {
+  background: url(../pic/uwit-01.png);
+  background-size: 100%;
   width: 60%;
+}
+.noteu-img {
+  background: url(../pic/NoteU-01.png);
+  background-size: 100%;
+  width: 95%;
+}
+.suqa-img {
+  background: url(../pic/SUQA-01.png);
+  background-size: 130%;
+  width: 100%;
+}
+.growler-img {
+  background: url(../pic/growler-01.png);
+  background-size: 100%;
+  width: 100%;
+}
+.carmax-img {
+  background: url(../pic/carmax.png);
+  background-size: 100%;
+  width: 90%;
+}
+.wlu1-img {
+  background: url(../pic/wlu1.png);
+  background-size: 100%;
+  width: 90%;
+}
+.ptt1-img {
+  background: url(../pic/ptt1.png);
+  background-size: 100%;
+  width: 40%;
+}
+.moodlog-img {
+  background: url(../pic/moodlog.png);
+  background-size: 100%;
+  width: 100%;
+}
+.white {
+  background-color: white;
 }
