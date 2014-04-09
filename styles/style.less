@@ -78,7 +78,7 @@ a
 	{
 		left: 40px;
 		top: 0px;
-		-webkit-transform: rotate(-360deg);
+		-webkit-transform: rotate(720deg);
 	}
 }
 
@@ -86,23 +86,28 @@ a
   text-decoration: underline;
   font-weight: bold;
 }
-#about{
-		
-		
-		height:690px;
-		width: 100%;
-	
-		div{
-			padding-top:5%;
-			padding-left: 5%;
-			color:white; 
-			font-weight:bold; 
+#about{	
+	height:690px;
+	width: 100%;
 
-			a:link{
-  			text-decoration: underline;
-  			color: red;
-			}
+	div{
+		width: 40%;
+		padding-top:5%;
+		padding-left: 5%;
+		color:white; 
+		font-weight:bold; 
+
+		a:link{
+			text-decoration: underline;
+			color: red;
 		}
+	}
+
+	@media screen and (max-width: 780px) {
+		div{
+			width: 100%;
+		}
+	}
 }
 #landing{
 	color:white;

@@ -4768,7 +4768,7 @@ a {
 #logo:hover {
   left: 40px;
   top: 0px;
-  -webkit-transform: rotate(-360deg);
+  -webkit-transform: rotate(720deg);
 }
 #contact a:link {
   text-decoration: underline;
@@ -4779,6 +4779,7 @@ a {
   width: 100%;
 }
 #about div {
+  width: 40%;
   padding-top: 5%;
   padding-left: 5%;
   color: white;
@@ -4787,6 +4788,11 @@ a {
 #about div a:link {
   text-decoration: underline;
   color: red;
+}
+@media screen and (max-width: 780px) {
+  #about div {
+    width: 100%;
+  }
 }
 #landing {
   color: white;
