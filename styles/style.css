@@ -4800,6 +4800,11 @@ a {
 #landing h2 {
   margin-top: 25vh;
 }
+.facebook-img {
+  background: url(../pic/facebook.png);
+  background-size: 100%;
+  width: 60%;
+}
 .frame {
   margin: 5px;
   padding: 0px 15px 15px 15px;
