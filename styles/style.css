@@ -4745,7 +4745,6 @@ a {
 }
 .content .block {
   background-color: #f1f0ee;
-  height: 320px;
   overflow: hidden;
   opacity: 1;
 }
@@ -4775,7 +4774,7 @@ a {
   font-weight: bold;
 }
 #about {
-  height: 690px;
+  height: 100vh;
   width: 100%;
 }
 #about div {
@@ -4812,17 +4811,24 @@ a {
   border: 10px solid white;
   border-radius: 2px;
   box-shadow: 0px 2px 0px #e6e6e6;
+  height: 250px;
+  overflow: hidden;
 }
 .frame .image {
   height: 180px;
   margin: 0 auto;
   background-repeat: no-repeat;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .resume-img {
   background: url(../pic/Resume3.jpg);
   background-size: 100%;
   border: #d1d2d4 1px solid;
+}
+.portfolio_history_img {
+  background: url(../pic/portfolio_history/portfolio.png);
+  background-size: 100%;
+  width: 95%;
 }
 .uwit-img {
   background: url(../pic/uwit-01.png);
@@ -4875,4 +4881,11 @@ a {
 }
 .blk ul li {
   margin-left: 30px;
+}
+.nodisplay {
+  display: none;
+}
+#contact {
+  height: 100vh;
+  text-align: center;
 }

@@ -83,14 +83,27 @@ h5{
 
   font-size: 1.2em;
 }
+.carousel-control.left {
+  background-image:none;
+
+}
+.carousel-control.right {
+  background-image:none;
+  
+}
+.pageheight{
+   height: 100vh;
+
+}
+
 </style>
 <body>
 
   <div class= "content">
     <section id= "landing" style="
     text-align:center; 
-    height:88vh;
     padding-top: 50px; 
+    height:88vh;
     background:url(pic/landing/6.jpg); 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -117,7 +130,7 @@ data-center="transform: rotate(0deg);"
 data-top-bottom="transform: rotate(360deg);"
 data-anchor-target="#nav-anchor"> CL</h3>           
 <ul>
-  <li style="display: none"><a href="#landing"></a></li>
+  <li class='nodisplay'><a href="#landing"></a></li>
   <li><a href="#portfolio">WORKS</a></li>
   <li><a href="#about">ABOUT</a></li>
   <li><a href="#contact">CONTACT</a></li>
@@ -143,12 +156,12 @@ data-anchor-target="#nav-anchor"> CL</h3>
                         </div>
                     </a>
                   -->
-                  <a data-toggle="modal" data-target="#facebook"> 
+                  <a data-toggle="modal" data-target="#portfolio_history"> 
                     <div class= "col-md-4 col-sm-6 block">
                       <div class="frame">                         
-                        <h5> New Project Coming soon</h5>
-                        <h6 class='tag'>#new </h6>
-                        <div class="image"></div>
+                        <h5> History of my portfolio :)</h5>
+                        <h6 class='tag'>#web #design #portfolio </h6>
+                        <div class="image portfolio_history_img"></div>
                       </div>       
                     </div>
                   </a>
@@ -156,7 +169,7 @@ data-anchor-target="#nav-anchor"> CL</h3>
                     <div class= "col-md-4 col-sm-6 block" >
                       <div class="frame"> 
                         <h5>Decision Support Website Redesign </h5>
-                        <h6 class='tag'>#website #redesign #development</h6>
+                        <h6 class='tag'>#web #redesign #development</h6>
                         <div class="image uwit-img"></div>
                       </div>
                     </div>
@@ -240,7 +253,7 @@ data-anchor-target="#nav-anchor"> CL</h3>
                 </div>
               </section>
             </div>
-            <section id="about" style="background: url(pic/bk3.jpg);
+            <section id="about" class='pageheight' style="background: url(pic/bk3.jpg);
             background-position:0 20%; 
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -260,7 +273,7 @@ data-anchor-target="#nav-anchor"> CL</h3>
 
 
 
-           <section id="contact" style="width:100%; height:700px; background:#E9EFF1; padding:5%;padding-top:14%; text-align:center;">
+           <section id="contact" class='pageheight' >
             <div> 
               <h3 style="color:#20b2cf">Let's Make Cool Stuff Together</h3></div>                    
               <img class="lazy" data-original="pic/1-01.png" alt="Smiley face" height='150px;'>
@@ -305,6 +318,117 @@ data-anchor-target="#nav-anchor"> CL</h3>
          </div>              
        -->
 
+
+       <!--Uwit Modal-->
+       <div class="modal fade" id="portfolio_history" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" >
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title" id="myModalLabel">Portfolio History</h4>
+            </div>
+            <div class="row">
+              <div class="col-md-12">  
+                <h5>Introduction </h5>
+                <p>This is how my portfolio and i grow up together. :)</p>
+          
+              </div>
+<!--              <div class="col-md-6">
+                <img src='pic/portfolio_history/v1/v1_home.jpg' width='100%'>
+                <img src='pic/portfolio_history/v1/v1_portfolio.jpg' width='100%'>
+              </div>
+              <div class="col-md-6">
+                <img src='pic/portfolio_history/v1/v1_about.jpg'  width='100%'>
+                <img src='pic/portfolio_history/v1/v1_photo.jpg'  width='100%'>
+              </div>
+              <div class="col-md-6">
+                <img src='pic/portfolio_history/v1/v1_contact.jpg' width='100%'>
+              </div>
+              <div class="col-md-6">
+                
+              </div>
+-->
+
+              <!--carousel-->
+              <div class='col-md-6'>
+                <h5>Portfolio Version 1(from Oct. 2012 to Feb. 2012)</h5>
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img width='100%'src="pic/portfolio_history/v1/v1.jpg" alt="...">
+                    </div>
+                    <div class="item">
+                      <img width='100%' src="pic/portfolio_history/v1/v2.jpg" alt="...">
+                    </div>
+                    <div class="item">
+                      <img width='100%' src="pic/portfolio_history/v1/v3.jpg" alt="...">
+                    </div>
+                    <div class="item">
+                      <img width='100%' src="pic/portfolio_history/v1/v4.jpg" alt="...">
+                    </div>
+                  </div>
+
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div>
+              </div>
+
+              <!--carousel-->
+              <div class='col-md-6'>
+                <h5>Portfolio Version 2(from Feb. 2013 to Mar. 2014)</h5>
+                <div id="carousel2" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel2" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel2" data-slide-to="1"></li>
+                    <li data-target="#carousel2" data-slide-to="2"></li>
+                    <li data-target="#carousel2" data-slide-to="3"></li>
+                  </ol>
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img width='100%'src="pic/portfolio_history/v2/p1_2.jpg" alt="...">
+                    </div>
+                    <div class="item">
+                      <img width='100%' src="pic/portfolio_history/v2/p2_2.jpg" alt="...">
+                    </div>
+                    <div class="item">
+                      <img width='100%' src="pic/portfolio_history/v2/p3_2.jpg" alt="...">
+                    </div>
+                    <div class="item">
+                      <img width='100%' src="pic/portfolio_history/v2/p5_2.jpg" alt="...">
+                    </div>
+                  </div>
+
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#carousel2" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#carousel2" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div>
+              </div>
+           </div>
+          </br>
+          </br>
+          </div>
+        </div>  
+      </div>  
        <!--Uwit Modal-->
        <div class="modal fade" id="uwit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog" >
