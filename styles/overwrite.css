@@ -1,0 +1,81 @@
+body{
+  font-size: 14px;
+  margin-right: auto;
+  margin-left: auto;    
+
+}
+.row{
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+h6{
+  font-size: 0.8em;
+}
+.active{
+  color:grey;
+  font-weight: bold;
+  text-decoration:underline;
+}
+.modal-dialog{
+  width:80%;
+  font: none;
+}
+.modal-body{
+  padding: 0;
+  padding-left: 2%;
+  padding-right: 2%;
+
+}
+.modal-body img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+.modal-header{
+  border: none;
+  padding-bottom: 10px;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: center;
+  padding-top:2%;
+}
+h6{
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.modal-dialog h5{
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+.modal-dialog h4{
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.modal-dialog p{
+  font-size: 12px;
+}
+
+
+.modal-title{
+  font-size: 18px;
+}
+
+h5{
+
+  font-size: 1.2em;
+}
+.carousel-control.left {
+  background-image:none;
+
+}
+.carousel-control.right {
+  background-image:none;
+  
+}
+.pageheight{
+   height: 100vh;
+
+}
