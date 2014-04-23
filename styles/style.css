@@ -4766,8 +4766,8 @@ a {
 }
 #logo:hover {
   left: 40px;
-  top: 0px;
-  -webkit-transform: rotate(720deg);
+  top: -10px;
+  -webkit-transform: rotate(360deg);
 }
 #contact a:link {
   text-decoration: underline;
