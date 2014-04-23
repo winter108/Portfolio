@@ -4882,7 +4882,7 @@ a {
   margin-left: 30px;
 }
 .nodisplay {
-  display: none;
+  display: none !important;
 }
 #contact {
   height: 100vh;

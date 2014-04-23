@@ -6,15 +6,15 @@ $(document).ready(function() {
     });
 
 	// Init Skrollr
-	var s = skrollr.init();
+	var s = skrollr.init({forceHeight: false});
 
 	$("img.lazy").lazyload({
         event : "sporty"
     });
 
-	$(window).bind("load", function() { 
-   		 var timeout = setTimeout(function() { 
-   		 	$("img.lazy").trigger("sporty") 
+	$(window).bind("load", function() {
+   		 var timeout = setTimeout(function() {
+   		 	$("img.lazy").trigger("sporty")
    		 	$('.lazy-background').each(function() {
 
 		        var lazy = $(this);
@@ -25,10 +25,10 @@ $(document).ready(function() {
 		        });
 
 		    });
-   		 }, 
+   		 },
    		 	500);
 	});
-	 
+
 	// Refresh Skrollr after resizing our sections
 	//s.refresh($('#landing'));
  });
