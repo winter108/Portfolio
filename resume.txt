@@ -1,0 +1,76 @@
+
+Christine Liu
+
+│Portfolio: christineliu.info│(206)747-2905│ytliu@uw.edu│
+
+  
+Skills
+--------------------------------------------------------------------------------------------------------
+ User Research: Task flow analysis, Survey design, Persona building, Usability test
+ UX Design: Ideation, Sketching, Wireframing, Prototyping
+ Programming: HTML, CSS, JavaScript, jQuery, C++, Java
+ Tools: Pen and paper, Axure, Omnigraffle, Adobe Illustrator, Adobe Photoshop, MS office
+
+
+Education
+--------------------------------------------------------------------------------------------------------
+University of Washington
+M.S. in Information Management / GPA: 3.6
+Seattle, WA Expected Jun. 2014
+
+National Central University
+B.S. in Information Management (IM)
+Award: NCU Presidential Award (for top 3 students of the class)
+Taoyuan, Taiwan Sep. 2007-Feb. 2012
+
+Work Experience
+--------------------------------------------------------------------------------------------------------
+Vertafore, Bothell, WA
+Oct.2013- Mar.2014
+UX Design Intern       
+•	Take ownership of NPS/SUS survey redesign and analysis.
+•	Research and structure user experience guideline for all Vertafore products.
+•	Facilitate the process of bringing product integration platform concepts into production.
+•	Deliver high quality visual elements for the interactive prototype demo in a nationwide conference.
+•	Tools used: Adobe Illustrator, Photoshop, Axure, Omnigraffle
+
+
+
+Solidworks, Waltham, MA
+June. 2013- Sep. 2013
+UI/UX Development Intern
+•   Initiate an UX project to solve inconsistency problems in EPDM with a detailed heuristic report.
+•	Successfully raise awareness of UX issues in the product, propose an execution plan and implement new design to solve the problems.
+•	Work in an interdisciplinary team with a senior developer, an UX manager and a visual designer.
+•	Technologies used: C++, MFC
+
+
+Ketchum (global leading PR agency), Taiwan Oct. 2011-Dec.2011, Apri.2011- Jun.2012 Project assistant
+•	Assisted in large-scale activities, media reception including magazines, newspapers and web-based media.
+
+Projects
+--------------------------------------------------------------------------------------------------------
+UW Foody Mobile Application Design Project (Axure)
+
+UW-IT Decision Support Website 	                                                                                                          
+01/2014 - Present
+•	Redesign and build website for UW-IT Enterprise Data Warehouse team with the goal of providing refreshing brand image and clear information architecture.
+•	Take ownership of design phase including current website analysis, user research, workflow design and low and mid fidelity prototypes.
+
+
+Growler Home Security System                                                                                                                
+03/2013 - 06/2013
+•	Personal home security system re-imagination serves the main purpose of deterring potential intruder.
+•	Fully hand on each stage of design process, from investigation, ideation, prototyping to evaluation.
+
+CarMax Mobile Application                                                                                                                      01/2013 - 03/2013
+•	Windows Mobile App design for CarMax.com aims to increase customer walk-in rate by gamification.
+•	Conduct 15+ user interviews, ideation by 30+ sketches, build interactive prototype.
+
+
+
+
+I love design, technology and all the beautiful things in the world. I have strong passion to user experience and believe in user-centered design can significantly help a company/ product to hit the market and build up brand image. I came into the field of ux with programming background which solidly provides me critical and logical way of thinking and breaking down design questions. With large amount of time i have spent on improving my visual design skills, i now have the ability to produce high quality visual elements and design with Ai and Ps. I also have rich user research experience from industry, my attention has been mostly put on survey design, google analytics analysis and persona building. I believe with my experience and easy going personality, i will definitely bring in fresh air, perspective and cool ideas for deloitte digital. :)
+
+
+
