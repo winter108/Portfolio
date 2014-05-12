@@ -4840,6 +4840,11 @@ a {
   background-size: 100%;
   width: 80%;
 }
+.amazon-img {
+  background: url(../pic/amazon.png);
+  background-size: 100%;
+  width: 45%;
+}
 .suqa-img {
   background: url(../pic/SUQA-01.png);
   background-size: 130%;
