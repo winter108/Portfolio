@@ -4756,7 +4756,13 @@ a {
 }
 .content .block:hover {
   background-color: none;
-  opacity: 0.6 	;
+  opacity: 0.5;
+}
+.content .block:hover:after {
+  content: url(../pic/explore.png);
+  position: absolute;
+  top: 45%;
+  left: 45%;
 }
 #logo {
   position: absolute;
