@@ -10,16 +10,16 @@ $(document).ready(function() {
       }
   };
 
-    $('#nav').onePageNav({
-         currentClass: 'active',
-         changeHash: true,
-         scrollSpeed: 1200
-    });
+    // $('#nav').onePageNav({
+    //      currentClass: 'active',
+    //      changeHash: true,
+    //      scrollSpeed: 1200
+    // });
 
-  if(!window.mobilecheck()) {
-    // Init Skrollr
-    skrollr.init({forceHeight: false});
-  }
+  // if(!window.mobilecheck()) {
+  //   // Init Skrollr
+  //   skrollr.init({forceHeight: false});
+  // }
 
   $("img.lazy").lazyload({
         event : "sporty"
@@ -29,10 +29,8 @@ $(document).ready(function() {
        var timeout = setTimeout(function() {
         $("img.lazy").trigger("sporty");
         $('.lazy-background').each(function() {
-
             var lazy = $(this);
             var src = lazy.attr('data-src');
-
             $('<img>').attr('src', src).load(function(){
                 lazy.css('background-image', 'url("'+src+'")');
             });
@@ -44,5 +42,26 @@ $(document).ready(function() {
 
   // Refresh Skrollr after resizing our sections
   //s.refresh($('#landing'));
+  $("#contact").load("../footer.html");
+
+  //Remove quick links of the same page
+  $("#project").load("../section.html", function(){
+    var pageId = $("html").data("page-id");
+    $("#project").find("#" + pageId).parent().remove();
+  });
+
+  //Load project header to the page
+  var $landing = $("#landing");
+  $landing.load("../project-header.html", function() {
+    var bgImgurl = $landing.data("bg-img");
+    $landing.data('center', "background-position: 20% -30px;")
+            .data('top-bottom', "background-position: 20% 300px;")
+            .data('anchor-target', "#landing");
+
+    $landing.find("#page-title").text($landing.data('title'));
+    $landing.find("#page-subtitle").text($landing.data('subtitle'));
+    
+    // $landing.css("background-image", "url(" + bgImgurl + ")"); 
+  });
  });
 

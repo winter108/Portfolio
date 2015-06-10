@@ -9,11 +9,13 @@ body{
   padding-left: 20px;
   padding-right: 20px;
 }
-
-.active{
-  color:grey;
-  font-weight: bold;
-  text-decoration:underline;
+ul{
+  list-style: circle;
+   margin-left: 15px;
+}
+ol{
+  list-style: decimal;
+  margin-left: 15px;
 }
 .modal-dialog{
   width:80%;
@@ -38,15 +40,11 @@ body{
   text-align: center;
   padding-top:2%;
 }
-h6{
-  font-size: 12px;
-  font-weight: bold;
-  margin-bottom: 6px;
-}
-h5{
-  font-size: 15px;
 
+b{
+   font-weight: 900;
 }
+
 .modal-dialog h5{
   font-size: 18px;
   margin-bottom: 6px;
@@ -54,6 +52,7 @@ h5{
 .modal-dialog h6{
   font-size: 15px;
   margin-bottom: 6px;
+  font-weight: 400;
    color: #38376C;
 }
 .modal-dialog h4{
