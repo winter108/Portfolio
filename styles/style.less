@@ -36,7 +36,12 @@ section.content {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover; 
-    background-color: black;
+    background-position: 0 -300px; 
+}
+.overlay{
+	color: blue;
+	opacity: 0.6;
+	z-index: 2;
 }
 
 .container{
@@ -51,7 +56,30 @@ section.content {
 	right: 0;
 	margin-bottom: 10px;
 	position: absolute;
+
 }
+.page-title{
+	font-size: 700%;
+	color: white;
+	font-weight: 400;
+	margin: -20px auto -20px auto;
+	z-index: 20;
+	&.project-page{
+		margin-top: 3vh;
+	}
+	&.portfolio{
+		margin-top: 20vh;
+	}
+	
+}
+.page-sub-title{
+	font-size: 1.2em;
+	color: #eee;
+	font-weight: 400;
+	text-transform: uppercase;
+	z-index: 20;
+}
+
 a{
 	color: #fe5953;
 	text-decoration: none;
@@ -127,26 +155,6 @@ h6{
 
 }
 
-.page-title{
-	font-size: 700%;
-	color: white;
-	font-weight: 400;
-	margin: -20px auto -20px auto;
-	&.project-page{
-		margin-top: 3vh;
-	}
-	&.portfolio{
-		margin-top: 20vh;
-	}
-	
-}
-.page-sub-title{
-	font-size: 1.2em;
-	color: #eee;
-	font-weight: 400;
-	text-transform: uppercase;
-	
-}
 
 .more_work{
 	margin-top: 10px;
@@ -326,68 +334,6 @@ h6{
 	background-size:100%;
 }
 
-.resume-img{
-	background:url(../pic/Resume3.jpg);
-	background-size:100%;
-	border:#d1d2d4 1px solid;
-}
-.portfolio_history_img{
-	background:url(../pic/portfolio_history/portfolio.png);
-	background-size:100%;
-	width: 80%;
-}
-.uwit-img{
-	background:url(../pic/uwit-01.png);
-	background-size:100%;
-	width: 60%;
-}
-.noteu-img{
-	background:url(../pic/NoteU-01.jpg);
-	background-size:100%;
-	width: 80%;
-}
-.amazon-img{
-	background:url(../pic/amazon.png);
-	background-size:100%;
-	width: 45%;
-}
-.suqa-img{
-	background:url(../pic/SUQA-01.png);
-	background-size:130%;
-	width: 100%;
-	padding-right: 0;
-}
-
-.growler-img{
-	background:url(../pic/growler-01.png);
-	background-size: 100%;
-	width: 50%;
-}
-.carmax-img{
-	background:url(../pic/carmax1.png);
-	background-size: 100%;
-	width: 90%;
-}
-.wlu1-img{
-	background:url(../pic/wlu1.jpg);
-	background-size: 100%;
-	width: 80%;
-
-}
-.ptt1-img{
-	background:url(../pic/ptt1.png);
-	background-size: 100%;
-	width: 25%;
-}
-.moodlog-img{
-	background:url(../pic/moodlog.png);
-	background-size: 100%;
-	background-position: 35% 30%;
-	width: 50%;
-}
-.white{
-	background-color: white;
-}
 
 .blk{
 	ul{
