@@ -4784,6 +4784,7 @@ section.content {
 a {
   color: #fe5953;
   text-decoration: none;
+  cursor: pointer;
 }
 h3 {
   font-size: 18px;
@@ -4822,6 +4823,7 @@ h6 {
 #nav a {
   color: white;
   font-weight: 300;
+  cursor: pointer;
 }
 #nav .active {
   color: white;
@@ -4915,6 +4917,7 @@ a {
 #contact a:link {
   text-decoration: underline;
   font-weight: bold;
+  cursor: pointer;
 }
 #about {
   height: 100vh;
@@ -4930,6 +4933,7 @@ a {
 #about div a:link {
   text-decoration: underline;
   color: red;
+  cursor: pointer;
 }
 @media screen and (max-width: 780px) {
   #about div {
@@ -5007,4 +5011,5 @@ a {
 #contact a {
   color: gray;
   margin-right: 10px;
+  cursor: pointer;
 }
