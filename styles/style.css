@@ -4993,6 +4993,14 @@ a {
   background: url(../pic/project_img/04.png) no-repeat;
   background-size: 100%;
 }
+#tableau {
+  background: url(../pic/project_img/10.png) no-repeat;
+  background-size: 100%;
+}
+#visualization_research {
+  background: url(../pic/project_img/10.png) no-repeat;
+  background-size: 100%;
+}
 .blk ul {
   list-style-type: circle;
 }
