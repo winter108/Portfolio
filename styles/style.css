@@ -4774,6 +4774,38 @@ section.content {
 .page-title.portfolio {
   margin-top: 20vh;
 }
+@media (max-width: 767px) {
+  .page-title {
+    font-size: 400%;
+  }
+  .title-section {
+    bottom: 55px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .page-title {
+    font-size: 550%;
+  }
+  .title-section {
+    bottom: 55px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .page-title {
+    font-size: 700%;
+  }
+  .title-section {
+    bottom: 55px;
+  }
+}
+@media (min-width: 1200px) {
+  .page-title {
+    font-size: 700%;
+  }
+  .title-section {
+    bottom: 15px;
+  }
+}
 .page-sub-title {
   font-size: 1.2em;
   color: #eee;
