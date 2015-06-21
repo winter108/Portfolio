@@ -4715,10 +4715,52 @@ footer p {
 body {
   font-family: 'Lato', sans-serif;
   font-size: 12px;
+  font-weight: 300;
 }
 p {
   font-size: 14px;
   line-height: 1.7em;
+}
+.font400 {
+  font-weight: 400;
+}
+a {
+  color: #fe5953;
+  text-decoration: none;
+  cursor: pointer;
+}
+img {
+  margin-bottom: 25px;
+}
+b {
+  font-weight: 400;
+}
+h1 {
+  font-weight: 300;
+}
+h2 {
+  margin-top: 15px;
+  font-weight: 300;
+}
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+h4 {
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+h5 {
+  font-size: 16px;
+  margin-bottom: 6px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+h6 {
+  font-size: 12px;
+  margin-bottom: 6px;
   font-weight: 400;
 }
 section.content {
@@ -4737,7 +4779,7 @@ section.content {
 #landing {
   padding-top: 0;
   text-align: center;
-  height: 40vh;
+  height: 25vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -4760,19 +4802,37 @@ section.content {
   right: 0;
   margin-bottom: 10px;
   position: absolute;
+  color: white;
+  font-weight: 300;
 }
 .page-title {
-  font-size: 700%;
+  margin: 15vh 0 0 0;
   color: white;
+  font-size: 400%;
   font-weight: 400;
-  margin: -20px auto -20px auto;
+}
+.page-sub-title {
+  font-size: 1.2em;
+  color: #eee;
+  font-weight: 400;
+  text-transform: uppercase;
   z-index: 20;
 }
-.page-title.project-page {
-  margin-top: 3vh;
+.project #nav a {
+  color: black;
 }
-.page-title.portfolio {
-  margin-top: 20vh;
+.project h2.page-sub-title {
+  color: #A7A9AB;
+  margin-top: 10px;
+  text-transform: none;
+  font-weight: 300;
+}
+.project .page-title {
+  margin: 3vh auto 10px auto;
+  color: black;
+  font-size: 400%;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 @media (max-width: 767px) {
   .page-title {
@@ -4806,40 +4866,6 @@ section.content {
     bottom: 15px;
   }
 }
-.page-sub-title {
-  font-size: 1.2em;
-  color: #eee;
-  font-weight: 400;
-  text-transform: uppercase;
-  z-index: 20;
-}
-a {
-  color: #fe5953;
-  text-decoration: none;
-  cursor: pointer;
-}
-h3 {
-  font-size: 18px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-h4 {
-  font-size: 17px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-h5 {
-  font-size: 16px;
-  margin-bottom: 6px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-h6 {
-  font-size: 12px;
-  margin-bottom: 6px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
 .paragraph {
   margin-bottom: 20px;
   overflow: hidden;
@@ -4852,15 +4878,18 @@ h6 {
   font-size: 14px;
   padding: 10px;
 }
+#nav .active {
+  text-decoration: underline;
+}
 #nav a {
   color: white;
   font-weight: 300;
   cursor: pointer;
+  letter-spacing: 2px;
+  font-size: 12px;
 }
-#nav .active {
-  color: white;
-  text-decoration: underline;
-  font-weight: 700;
+#nav a:hover {
+  color: #16a085;
 }
 #nav ul {
   font-size: 28 px;

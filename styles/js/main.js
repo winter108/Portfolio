@@ -70,8 +70,8 @@ $(document).ready(function() {
     $landing.find("#page-title").text($landing.data('title'));
     $landing.find("#page-subtitle").text($landing.data('subtitle'));
     
-    $landing.css("background-image", 
-      "url(" + bgImgurl + ")"); 
+    // $landing.css("background-image", 
+    //   "url(" + bgImgurl + ")"); 
   });
  });
 
