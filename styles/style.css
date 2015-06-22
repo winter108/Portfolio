@@ -4816,7 +4816,7 @@ section.content {
   font-weight: 400;
   text-transform: uppercase;
   z-index: 20;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 .project #nav a {
   color: black;
