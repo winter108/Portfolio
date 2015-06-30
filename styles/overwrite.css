@@ -42,7 +42,7 @@ ol{
 }
 
 b{
-   font-weight: 900;
+   font-weight: 400;
 }
 
 .modal-dialog h5{
@@ -83,5 +83,6 @@ b{
 
 }
 li{
-  font-size: 14px;
+  font-size: 16px;
+  margin-left: 5px;
 }
