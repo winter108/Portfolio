@@ -86,3 +86,13 @@ li{
   font-size: 16px;
   margin-left: 5px;
 }
+.font400{
+  font-weight: 400;
+  font-size: 14px;
+}
+ol.font400 li{
+
+  font-weight: 400;
+  font-size: 14px;
+
+}
