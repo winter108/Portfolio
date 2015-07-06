@@ -5095,7 +5095,7 @@ a {
   position: relative;
   display: block;
   width: 100%;
-  opacity: .9;
+  opacity: 1;
 }
 .grid figure figcaption {
   padding: 2em;
