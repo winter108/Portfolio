@@ -4979,6 +4979,16 @@ a {
   border: 10px #eee solid;
   height: 150px;
 }
+#project .effect-marley p {
+  font-size: 60%;
+  bottom: 10px;
+  line-height: 1.5em;
+  left: 1.5em;
+}
+#project .effect-marley h2 {
+  top: 10px;
+  font-size: 13px;
+}
 #contact a:link {
   text-decoration: underline;
   font-weight: bold;
