@@ -5285,6 +5285,10 @@ figure.effect-marley:hover p {
   .page-sub-title.portfolio {
     font-size: 100%;
   }
+  .project .page-title {
+    font-size: 300%;
+    margin-top: 7vh;
+  }
   #page-caption {
     margin-top: 150px;
     width: 40%;
@@ -5308,6 +5312,10 @@ figure.effect-marley:hover p {
   }
   .page-sub-title.portfolio {
     font-size: 100%;
+  }
+  .project .page-title {
+    font-size: 400%;
+    margin-top: 7vh;
   }
   #page-caption p {
     font-size: 200%;
