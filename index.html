@@ -18,17 +18,17 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body>
-<img src="option6.jpeg" id="dummy" onload="document.querySelector('#banner').style.backgroundImage = 'url(option6.jpeg)'; document.querySelector('#banner').style.opacity=1.0;" style="display:none;"/>
+<img src="option6.jpg" id="dummy" 
+      onload="document.querySelector('#banner').style.backgroundImage = 'url(option6.jpg)'; document.querySelector('#banner').style.opacity=1.0;
+      setTimeout(function(){document.querySelector('#page-caption h2').classList.add('active'); document.querySelector('#page-caption p').classList.add('active');}, 500)" 
+      style="display:none;"/>
 <section id="banner" style="
     text-align:center;
     height:100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: 20% -70px;"
-    data-center="background-position: 20% -30px;"
-    data-top-bottom="background-position: 20% -300px;"
-    data-anchor-target="#landing">
+    background-position: 20% -70px;">
     <div class="landing-container"> 
       <nav id="nav">
       <a href="index.html">
@@ -40,10 +40,11 @@
           <li><a href="portfolio.html">PORTFOLIO</a></li>
         </ul>
       </nav>
-      <div class= "title-section"
-        data-center="bottom: 0px; opacity: 1.5"
-        data-top="bottom: 1200px; opacity: 0"
-        data-anchor-target="#landing h2:last-of-type">
+      <div id="page-caption">
+          <h2>Love</h2>
+          <p>What You Do</p>
+      </div>
+      <div class= "title-section">
         <h1 class="page-title">Christine Liu </h1> 
         <h2 class="page-sub-title">Interaction Designer, Seattle WA</h2>
       </div>
