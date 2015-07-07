@@ -69,9 +69,10 @@ $(document).ready(function() {
 
     $landing.find("#page-title").text($landing.data('title'));
     $landing.find("#page-subtitle").text($landing.data('subtitle'));
-    
-    // $landing.css("background-image", 
-    //   "url(" + bgImgurl + ")"); 
   });
- });
+
+  $(".overlay img").on("load", function() {
+      $(this).css("opacity", 1.0);
+  });
+});
 
