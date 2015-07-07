@@ -408,6 +408,13 @@ a{
 }
 
 
+#banner {
+	opacity: 0;
+	-moz-transition: opacity 1s; /* Firefox 4 */
+	-webkit-transition: opacity 1s; /* Safari and Chrome */
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+}
 
 
 
@@ -427,15 +434,14 @@ a{
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
-	background: #333;
 	text-align: center;
 	cursor: pointer;
 	height: 305px;
 	border: 20px white solid;
+	background: #333;
 }
 
 .overlay {  
-	background:rgba(0,0,0,.75);
 	text-align:center;
 	z-index: 1100;
 	opacity: 1;
@@ -454,7 +460,11 @@ a{
 	position: relative;
 	display: block;
     width: 100%;
-	opacity: 1;
+	opacity: 0;
+	-moz-transition: opacity 1s; /* Firefox 4 */
+	-webkit-transition: opacity 1s; /* Safari and Chrome */
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
 }
 
 .grid figure figcaption {
