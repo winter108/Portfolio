@@ -70,9 +70,5 @@ $(document).ready(function() {
     $landing.find("#page-title").text($landing.data('title'));
     $landing.find("#page-subtitle").text($landing.data('subtitle'));
   });
-
-  $(".overlay img").on("load", function() {
-      $(this).css("opacity", 1.0);
-  });
 });
 
