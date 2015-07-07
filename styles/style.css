@@ -4787,7 +4787,7 @@ h5 {
   margin: 8px 0;
   font-weight: 500;
   font-size: 20px;
-  margin: 20px 0 10px 0;
+  margin: 0px 0 10px 0;
 }
 h6 {
   font-size: 14px;
@@ -4858,11 +4858,12 @@ section.content {
   margin-top: 10px;
   text-transform: none;
   font-weight: 300;
+  font-size: 16px;
 }
 .project .page-title {
   margin: 3vh auto 10px auto;
   color: black;
-  font-size: 400%;
+  font-size: 470%;
   font-weight: 300;
   text-transform: uppercase;
 }
