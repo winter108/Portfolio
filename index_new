@@ -34,11 +34,11 @@
       <a href="index.html">
         <img src="me.png" width="85px" id="logo">
        </a> 
-       <!--  <ul>
+        <ul>
           <li class='nodisplay'><a href="#landing"></a></li>
           <li><a href="index.html" class="active">PORTFOLIO</a></li>
           <li><a href="about.html">ABOUT</a></li>
-        </ul> -->
+        </ul>
       </nav>
       <div id="page-caption">
           <h2>Love</h2>
@@ -53,9 +53,7 @@
 <section class="content">
   <div class="container"> 
     <div class="row">
-
       <div class="grid">
-        
           <figure class="effect-marley col-md-4 col-sm-6">
             <div class="overlay">
               <img id="img01" onload="document.querySelector('#img01').style.opacity=1.0;" src="pic/project_img/01.png" alt="img01"/>
@@ -176,10 +174,26 @@
     </div>
    
   </div> 
-
 </section>
 <section >
- 
+  <div class="row">
+      <div class= "col-md-6 col-sm-12">
+        </br>
+        <h3> More About Me</h3>
+        <p class="font400">
+        I'm a graduate of <a href="http://www.washington.edu/">University of Washington</a> with a Master degree in Information Management. I love being involved in every step of a product. Start with very high level requirements gathering and then translate requirements to product concepts. With the concepts of the product, build up information architecture and the user flows. Then, work on the UX/UI in detail to bring the thoughtfulness into each part of the product. Finally, work closely with developers until the day the product gets shipped! </p>
+      </div>
+      <div class= "col-md-6 col-sm-12">
+        </br>
+        <h3> UX Super Power</h3>
+        <ol class="font400">
+          <li>Design from the conceptual level. </li>
+          <li>Gather business requirements, user requirements and customer feedback and further translate them into beautiful interfaces and meaningful interactions.  </li>
+          <li> Identify core problems and provide both innovative and professional solutions.  </li>
+          <li>Ask good questions and synthesize people's questions into design considerations. </li>
+        </p>
+      </div>
+  </div>
 </section>
 <section id="contact"></section>
 
