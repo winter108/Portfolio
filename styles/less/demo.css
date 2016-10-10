@@ -24,7 +24,7 @@
   width: 236px;
 }
 .demo-logo small {
-  color: rgba(52, 73, 94, 0.30000000000000004);
+  color: rgba(52, 73, 94, 0.3);
   display: block;
   font-size: 22px;
   font-weight: 700;
@@ -126,10 +126,8 @@
 .demo-illustrations .demo-content:after {
   content: " ";
   /* 1 */
-
   display: table;
   /* 2 */
-
 }
 .demo-illustrations .demo-content:after {
   clear: both;
@@ -188,7 +186,7 @@
 .demo-browser {
   background: #2c3e50 url(../images/demo/browser.png) 0 0 no-repeat;
   background-size: 659px 42px;
-  color: #ffffff;
+  color: white;
   margin: 0 41px 140px 0;
   padding-top: 42px;
   border-radius: 0 0 6px 6px;
@@ -215,7 +213,7 @@
 }
 .demo-browser-author {
   background: url(../images/demo/browser-author.jpg) center center no-repeat;
-  border: 3px solid #ffffff;
+  border: 3px solid white;
   display: block;
   height: 84px;
   margin: 0 auto;
@@ -231,7 +229,7 @@
   border-radius: 3px;
 }
 .demo-browser-action > .btn:before {
-  color: #ffffff;
+  color: white;
   content: '\e009';
   font-size: 16px;
   font-family: 'Flat-UI-Icons';
@@ -248,7 +246,7 @@
   border-radius: 0 0 6px;
 }
 .demo-browser-content > img {
-  border: 6px solid #ffffff;
+  border: 6px solid white;
   float: left;
   margin: 0 15px 20px 0;
   width: 146px;

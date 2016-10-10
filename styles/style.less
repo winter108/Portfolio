@@ -6,10 +6,35 @@
 
 body
 {
-	font-family: 'roboto', sans-serif;
+	// font-family: 'roboto', sans-serif;
+	font-family: "futura-pt";
 	font-size: 14px;
 	font-weight: 300;
+	background-color: #f1f2f1;
+	width: 1180px;
+	
 }
+#name_header
+{
+	height: 117px;
+	background-color: white;
+	width: 100%;
+	padding-top: 15px;
+	h1{
+		margin: 0;
+		text-align: center;
+		a{
+			font-size: 30px;
+			color: black;
+			width: 100px;
+			font-weight: 400;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			
+		}
+	}
+}
+
 p{
 	// font-family: 'Droid Serif', serif;
 	font-size: 16px;
@@ -78,8 +103,7 @@ h3{
 	text-transform: uppercase;
 	// margin-top: 100px;
 	// margin-bottom: 80px;
-}  font-size: 16px;
-  margin: 5px 0 5px 0;
+}
 h4{
 	font-size: 19px;
 	font-weight: 400;
@@ -101,8 +125,13 @@ h6{
   font-weight: 400;
   // text-transform: uppercase;
 }
+section{
+	background: white;
+	box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
 section.content {
 	padding: 60px 0 60px 0;
+	
 }
 .carousel{
 	ol,ul{
@@ -112,9 +141,38 @@ section.content {
 }
 .landing-container{
 	// max-width: 1120px;
-	margin: 0 40px;
-	position: relative;
-	height: 100vh;
+	// margin: 0 40px;
+	background-color: #e8a6d0;
+	// position: relative;
+	padding: 20px;
+	height: 360px;
+	box-shadow: 0 0 8px rgba(0,0,0,.1);
+	width: 100%;
+	padding: 100px 0;
+}
+#left-caption{
+	width:50%;
+	float: left;
+	text-align: right;
+	h2{
+		font-size: 8em;
+		font-weight: 500;
+		color: white;
+	}
+	padding-right: 20px;
+}
+#right-caption{
+	width:50%;
+	float: right;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-right: 120px;
+	h2{
+		font-size: 2em;
+		font-weight: 400;
+		color: white;
+		line-height: 30px;
+	}
 }
 #landing{
 	padding-top:0;
@@ -503,7 +561,7 @@ a{
 	position: relative;
 	height: 30vh;
 	width: 22%;
-	margin-top: 13%;
+	// margin-top: 13%;
 	 h2, p {
 		  margin: 0 auto;
 	}
