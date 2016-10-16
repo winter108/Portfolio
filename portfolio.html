@@ -18,30 +18,18 @@
 </head>
 
 <body id="portfolio">
-<img src="portfolio3.jpg" id="dummy" onload="document.querySelector('#banner').style.backgroundImage = 'url(portfolio3.jpg)'; document.querySelector('#banner').style.opacity=1.0;" style="display:none;"/>
-<section id="banner" style="
-    text-align:center;
-    height:80vh;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;"
-    data-center="background-position: 20% -30px;"
-    data-top-bottom="background-position: 20% 300px;"
-    data-anchor-target="#landing">
+<section id="banner" style="text-align:center;" >
       <nav id="nav"  class="landing-container">
        <a href="index.html">
         <img src="me.png" width="85px" id="logo">
        </a> 
         <ul>
           <li class='nodisplay'><a href="#landing"></a></li>
-          <li><a href="index.html">HELLO</a></li>
-          <li><a href="portfolio.html" class="active">PORTFOLIO</a></li>
+          <li><a href="index.html" style="color:black">HELLO</a></li>
+          <li><a href="portfolio.html" class="active" style="color:black">PORTFOLIO</a></li>
         </ul>
       </nav>
-      <div
-        data-center="bottom: 0px; opacity: 1.5"
-        data-top="bottom: 1200px; opacity: 0"
-        data-anchor-target="#landing h2:last-of-type">
+      <div>
         <h1 class="page-title portfolio">Portfolio </h1> 
         <h2 class="page-sub-title portfolio">Things I've been working on!</h2>
       </div>

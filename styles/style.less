@@ -2,16 +2,44 @@
 @import 'reset.css';
 @import 'less/flat-ui.less';
 
+@containerMaxWith: 980px;
 @grey: rgba(48, 48, 48, .5);
 
-body
-{
-	font-family: 'roboto', sans-serif;
+@font-face {
+    font-family: ArcherBookPro;
+	font-style: normal;
+	font-weight: 400;
+    src: url(../font/Archer-Book-Pro.otf);
+}
+
+@font-face {
+    font-family: ArcherBookPro;
+	font-style: normal;
+	font-weight: 500;
+    src: url(../font/Archer-Medium-Pro.otf);
+}
+
+@font-face {
+    font-family: ArcherBookPro;
+	font-style: normal;
+	font-weight: 600;
+    src: url(../font/Archer-SemiBold-Pro.otf);
+}
+
+@font-face {
+    font-family: ArcherBookPro;
+	font-style: normal;
+	font-weight: 700;
+    src: url(../font/Archer-Bold-Pro.otf);
+}
+
+body {
+	font-family: 'ArcherBookPro', sans-serif;
 	font-size: 14px;
 	font-weight: 300;
 }
-p{
-	// font-family: 'Droid Serif', serif;
+
+p {
 	font-size: 16px;
 	line-height: 1.7em;
 	letter-spacing: 0.1px;
@@ -42,7 +70,6 @@ p{
   		margin: 5px 0 5px 0;
 }
 .card{
-	  // background-color: #f6f6f6;
 	  border: 1px solid #f6f6f6;
 	  color: #484848;
 	  font-size: 16px;
@@ -76,16 +103,10 @@ h3{
 	font-size: 20px;
 	font-weight: 400;
 	text-transform: uppercase;
-	// margin-top: 100px;
-	// margin-bottom: 80px;
-}  font-size: 16px;
-  margin: 5px 0 5px 0;
+}  
 h4{
 	font-size: 19px;
 	font-weight: 400;
-	// color: #939597;
-	// margin-top: 40px;
-	// margin-bottom: 40px;
 	text-transform: uppercase;
 }
 h5{
@@ -99,7 +120,6 @@ h6{
   font-size: 14px;
   margin-bottom: 6px;
   font-weight: 400;
-  // text-transform: uppercase;
 }
 section.content {
 	padding: 60px 0 60px 0;
@@ -125,71 +145,46 @@ section.content {
     background-size: cover; 
     background-position: 0 -300px; 
 }
-/*
-.overlay{
-	color: blue;
-	opacity: 0.6;
-	z-index: 2;
-}*/
 
-.container{
-	max-width: 980px;
+.container {
+	max-width: @containerMaxWith;
 }
-.center{
+.center {
 	text-align: center;
 }
-.title-section{
+.title-section {
+	max-width: @containerMaxWith;
+	margin: 0 auto 10px auto;
 	text-align: right;
-	bottom: 0;
-	right: 0;
-	margin-bottom: 10px;
-	position: absolute;	
+	z-index: 1;
+	padding:10px;
 	color: white;
 	font-weight: 300;
-
+	position: absolute;
+   	bottom: 0;
+	right: 9.4%;
 }
-.page-title{
-		margin: 15vh 0 0 0;
-		color: white;
-		font-size: 400%;
-		font-weight: 400;
-
-	}
-.page-sub-title{
-	font-size: 0.85em;
-	color: #eee;
-	font-weight: 300;
-	text-transform: uppercase;
-	z-index: 20;
-	letter-spacing: 1px;
+.page-title {
+		font-size: 5em;
+		font-weight: 300;
 }
-
-.project{
-	#nav{
-		a{
-			color: black;
-		}	
-	}
-	h2.page-sub-title{
+.page-sub-title {
 		color: #A7A9AB;
 		margin-top: 10px;
 		text-transform: none;
 		font-weight: 300;
-		font-size: 16px;	
-	}
-	.page-title{
-		margin: 3vh auto 10px auto;
-		color: black;
-		font-size: 470%;
-		font-weight: 300;
-		text-transform: uppercase;
-
-	}
+		font-size: 16px;
 }
 
-
-
-
+	.project
+	{
+		#nav
+		{
+			a{
+				color: black;
+			}	
+		}
+	}
 
 .paragraph{
 	margin-bottom: 20px;
@@ -198,6 +193,8 @@ section.content {
 #nav
 {
 	height: 65px;
+	max-width: @containerMaxWith;
+	margin: 0 auto;
 	list-style:none;
 	text-align:center;
 	z-index: 1;
@@ -208,9 +205,8 @@ section.content {
 	}
 	a{
 		color: white;
-		font-weight: 300;
 		cursor: pointer; 
-		letter-spacing: 2px;
+		letter-spacing: 1px;
   		font-size: 12px;
 	
 		&:hover{
@@ -378,15 +374,6 @@ a{
 		margin-right: 10px;
 		cursor: pointer; 
 	}
-}
-
-
-#banner {
-	opacity: 0;
-	-moz-transition: opacity 1s; /* Firefox 4 */
-	-webkit-transition: opacity 1s; /* Safari and Chrome */
-	-o-transition: opacity 1s;
-	transition: opacity 1s;
 }
 
 .grid {
@@ -669,14 +656,7 @@ figure.effect-marley:hover p {
          .title-section{
 			bottom: 60px;
 		}
-		.page-title.portfolio{
-         	font-size: 300%;
-         }
-    	.page-sub-title.portfolio{
-         	font-size: 80%;
-         	text-transform: none;
-         	
-         }
+
          .project .page-title{
          		font-size: 300%;
          		margin-top: 7vh;
@@ -695,25 +675,20 @@ figure.effect-marley:hover p {
 }
 @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { 
      .page-title{
-     	font-size: 550%;
+     	font-size: 300%;
      }
      .title-section{
 		bottom: 55px;
 	}
-	.page-title.portfolio{
-         	font-size: 400%;
-         }
-    .page-sub-title.portfolio{
-         	font-size: 100%;
-         	text-transform: none;
-         }
+
     .project .page-title{
-         		font-size: 400%;
-         		margin-top: 7vh;
-         }
-
+        font-size: 400%;
+        margin-top: 7vh;
+    }
+	.page-title .name{
+			 font-size: 300%
+		 }
 	#page-caption {
-
 		p {
 			font-size: 200%;
 		}
@@ -725,18 +700,15 @@ figure.effect-marley:hover p {
 }
 @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
 	     .page-title{
-         	font-size: 300%;
+         	font-size: 450%;
          }
          .title-section{
 			bottom: 55px;
-		}
-		.page-title.portfolio{
-         	font-size: 600%;
-         }
-          .page-sub-title.portfolio{
-         	font-size: 130%;
-         	text-transform: none;
-         }
+			.page-title {
+				font-size: 300%
+			}
+		 }
+
 		#page-caption {
 			p {
 				font-size: 250%;
@@ -748,18 +720,15 @@ figure.effect-marley:hover p {
 }
 @media (min-width: @screen-lg-min) {
          .page-title{
-         	font-size: 300%;
+         	font-size: 450%;
          }
-         .page-title.portfolio{
-         	font-size: 600%;
-         }
-         .page-sub-title.portfolio{
-         	font-size: 150%;
-         	text-transform: none;
+		 
 
-         }
          .title-section{
 			bottom: 15px;
+			.page-title {
+			 font-size: 300%
+		 }
 		}
 		#page-caption {
 			width: 24%;
