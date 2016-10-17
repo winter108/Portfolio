@@ -2,7 +2,7 @@
 @import 'reset.css';
 @import 'less/flat-ui.less';
 
-@containerMaxWith: 980px;
+@containerMaxWith: @screen-md-min;
 @grey: rgba(48, 48, 48, .5);
 
 @font-face {
@@ -162,15 +162,14 @@ section.content {
 }
 .title-section {
 	max-width: @containerMaxWith;
-	margin: 0 auto 10px auto;
+	margin: 0;
+	right: 5px;
 	text-align: right;
 	z-index: 1;
-	padding:10px;
 	color: white;
 	font-weight: 300;
 	position: absolute;
-   	bottom: 0;
-	right: 9.3%;
+   	bottom: 150px;
 }
 .page-title {
 		font-size: 5em;
@@ -204,7 +203,6 @@ section.content {
 	max-width: @containerMaxWith;
 	margin: 0 auto;
 	list-style:none;
-	text-align:center;
 	z-index: 1;
 	font-size: 14px;
 	padding:10px;
@@ -661,9 +659,6 @@ figure.effect-marley:hover p {
          .page-sub-title{
          	font-size: 10px;
          }
-         .title-section{
-			bottom: 20px;
-		}
 
          .project .page-title{
          		font-size: 300%;
@@ -685,9 +680,6 @@ figure.effect-marley:hover p {
      .page-title{
      	font-size: 300%;
      }
-     .title-section{
-		bottom: 20px;
-	}
 
     .project .page-title{
         font-size: 400%;
@@ -711,6 +703,7 @@ figure.effect-marley:hover p {
          	font-size: 450%;
          }
          .title-section{
+			//right: ~"calc((100% - 992px)/2)";
 			bottom: 20px;
 			.page-title {
 				font-size: 300%
@@ -730,9 +723,8 @@ figure.effect-marley:hover p {
          .page-title{
          	font-size: 450%;
          }
-		 
-
          .title-section{
+			right: ~"calc((100% - 992px)/2)";
 			bottom: 15px;
 			.page-title {
 			 font-size: 300%
